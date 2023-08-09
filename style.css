@@ -23,7 +23,7 @@ body{
     margin-top: 5px;
     justify-content: space-evenly;
 }
-.footer ul li a, .footer h4{
+.footer h4{
     color: white;
 } 
 .footer h4{
@@ -31,4 +31,5 @@ body{
 }
 .footer ul li a, .footer .copyright{
     font-size: 14px;
+    color: white;
 }
