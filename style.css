@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.nav-link{
+    color: rgb(253, 249, 249);
+}
+.nav-section{
+    background-color: black;  
+}
+.h1{
+    color: white;
+}
+.imgh{
+    width: 15rem;
+}
