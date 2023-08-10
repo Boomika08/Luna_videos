@@ -3,18 +3,24 @@
     padding: 0;
 }
 body{
-    background-color: black
+    background-color: black;
 }
 .nav-link{
     color: rgb(253, 249, 249);
 }
 .nav-bar{
-    background: #a80929 0 0 no-repeat padding-box;
+    background: #262626 0 0 no-repeat padding-box;
+    height: 60px;
+    justify-content: space-between;
+    font-size: 17px;
 }
-.h1{
+.nav-item{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.h3{
     color: white;
 }
-
 .footer-nav{
     background: #a80929 0 0 no-repeat padding-box;
 }
@@ -23,13 +29,22 @@ body{
     margin-top: 5px;
     justify-content: space-evenly;
 }
+.logo1{
+    width: 50px;
+    margin-left: 35px;
+    margin-top: 6px;
+}
+.footer.terms{
+    display: flex;
+    flex-wrap: wrap;
+}
 .footer h4{
     color: white;
 } 
 .footer h4{
     font-size: 16px;
 }
-.footer ul li a, .footer .copyright{
+.footer ul li a, .footer .copyright, .footer .version{
     font-size: 14px;
     color: white;
 }

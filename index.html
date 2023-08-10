@@ -11,7 +11,8 @@
 <body>
     <div class="top-container">
     <div class="nav-bar">
-        <ul class="nav justify-content-center nav-underline">
+        <ul class="nav nav-underline ">
+            <img src="images/Icons/logo.png" class="logo1" alt="logo">
             <li class="nav-item"> <a class="nav-link" href="#">HOME</a></li>
             <li class="nav-item"> <a class="nav-link" href="#">MOVIES</a></li>
             <li class="nav-item"> <a class="nav-link" href="#">TV SHOWS</a></li>
@@ -19,6 +20,16 @@
             <li class="nav-item"> <a class="nav-link" href="#">MUSIC VIDEOS</a></li>
             <li class="nav-item"> <a class="nav-link" href="#">COMEDY</a></li>
         </ul>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Language
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Tamil</a>
+              <a class="dropdown-item" href="#">Kannada</a>
+              <a class="dropdown-item" href="#">Telugu</a>
+            </div>
+          </div>
     </div>
     </div>
     <div class="carousel container justify-content-center">
@@ -54,8 +65,8 @@
             </div>
         </div>
     </div>
-    <div class="latest">
-        <h1 class="h1">Jailer Audio Launch ( Best Moments )</h1>
+    <div class="audio">
+        <h3 class="h3">Jailer Audio Launch ( Best Moments )</h3>
         <div class="row d-flex justify-content-start">
             <div class="col">
                 <img src="images/headings/imgh1.jpg" class="img-fluid imgh">
@@ -68,11 +79,15 @@
             </div>
             <div class="col">
                 <img src="images/headings/imgh4.jpg" class="img-fluid imgh">
+            </div> 
+            <div class="col">
+                <img src="images/headings/imgh5.jpg" class="img-fluid imgh">
             </div>
         </div>
+        <div class="carousels_see_more_part"><img src="images/view_all.png" alt="viewall"><button type="button">View All</button></div>
     </div>
-    <div class="movie">
-        <h1 class="h1">Live</h1>
+    <div class="live">
+        <h3  class="h3">Live</h3>
         <div class="row d-flex justify-content-start">
             <div class="col live">
                 <img src="images/live/img1.jpeg" class="img-fluid imgh">
@@ -86,22 +101,48 @@
             <div class="col live">
                 <img src="images/live/img4.jpeg" class="img-fluid imgh">
             </div>
+            <div class="col live">
+                <img src="images/live/img4.jpeg" class="img-fluid imgh">
+            </div>
         </div>
     </div>
     <div class="epi">
-        <h1 class="h1">Latest episodes</h1>
+        <h3 class="h3">Latest episodes</h3>
         <div class="row d-flex justify-content-start">
             <div class="col">
-                <img src="images/headings/imgh1.jpg" class="img-fluid imgh">
+                <img src="images/latest/imgl1.jpg" class="img-fluid imgh">
             </div>
             <div class="col">
-                <img src="images/headings/imgh2.jpg" class="img-fluid imgh">
+                <img src="images/latest/imgl2.jpg" class="img-fluid imgh">
             </div>
             <div class="col">
-                <img src="images/headings/imgh3.jpg" class="img-fluid imgh">
+                <img src="images/latest/imgl3.jpg" class="img-fluid imgh">
             </div>
             <div class="col">
-                <img src="images/headings/imgh4.jpg" class="img-fluid imgh">
+                <img src="images/latest/imgl4.jpg" class="img-fluid imgh">
+            </div>   
+            <div class="col">
+                <img src="images/latest/imgl5.jpg" class="img-fluid imgh">
+            </div>
+        </div>
+    </div>
+    <div class="song">
+        <h3 class="h3">Song Performance</h3>
+        <div class="row d-flex justify-content-start">
+            <div class="col live">
+                <img src="images/songs/imgs1.jpg" class="img-fluid imgh">
+            </div>
+            <div class="col live">
+                <img src="images/songs/imgs2.jpg" class="img-fluid imgh">
+            </div>
+            <div class="col live">
+                <img src="images/songs/imgs3.jpg" class="img-fluid imgh">
+            </div>
+            <div class="col live">
+                <img src="images/songs/imgs4.jpg" class="img-fluid imgh">
+            </div>
+            <div class="col live">
+                <img src="images/songs/imgs5.jpg" class="img-fluid imgh">
             </div>
         </div>
     </div>
@@ -122,10 +163,10 @@
     </div>
     <div class="footer">
         <div class="row">
-        <div class="col">
+        <div class="col-4">
         <div class="footer terms">
             <ul>
-                <li><a href="">About Us</a></li>
+                <li><a href="">About Us </a></li>
                 <li><a href="">Feedback</a></li>
                 <li><a href="">FAQs</a></li>
                 <li><a href="">Privacy policy</a></li>
@@ -143,7 +184,7 @@
             </ul>
         </div>
         </div>
-        <div class="col">
+        <div class="col-2">
         <div class="footer social-icons">
             <h4>Follow Us</h4>
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/SunNXT/">
@@ -157,7 +198,7 @@
                 </a>
         </div>
         </div> 
-        <div class="col"> 
+        <div class="col-3"> 
         <div class="footer download">
             <h4>Download the App</h4>
                 <a target="_blank" rel="noreferrer" href="https://apps.apple.com/us/app/sun-nxt/id1244757492">
@@ -168,7 +209,7 @@
                 </a>
         </div>
         </div>
-        <div class="col">
+        <div class="col-3">
         <div class="footer_available__fToJD">
             <h4>Also Available on</h4>
                 <img src="images/Icons/devices.png" alt="firetv">
@@ -179,3 +220,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
+<!--
+    <div class="carousels_home_carosel_title__5Z0uK">
+        <img class="carousels_elevation_strip__AykxV" src="/images/elevationstrip.png" alt="elevation">
+        <h1>Jailer Audio Launch ( Best Moments )</h1>
+        <div class="carousels_see_more_part__cjTFx">
+            <a href="/tamil-telugu-malayalam-kannada-bengali-marathi-serial/inside/jaileraudiolaunch1?title=Jailer%20Audio%20Launch%20(%20Best%20Moments%20)&amp;type=vod&amp;publishingHouseId=45">
+                <div class="carousels_see_more_part__cjTFx">
+                    <img src="images/view_all.png" alt="viewall">
+                    <button type="button">View All</button>
+                </div>
+            </a>
+        </div>
+        <div class="carousels_buttons_imgs__BlXCL" style="float: right;">
+            <div class="carousels_arrows_left_section__3mZmr">
+                <img src="images/scroll_back_left.png" class="carousels_default_arrow_left__Q94Ko" alt="scroll_arrow_left">
+                <img src="images/Scroll_back_hover.png" class="carousels_selected_arrow_left__cvJFR" alt="scroll_arrow_left">
+            </div>
+            <div class="carousels_arrows_right_section__WWpso">
+                <img src="images/scroll_forwd_right.png" class="carousels_default_arrow_right__cLtn5" alt="scroll_arrow_right">
+                <img src="images/scroll_frwd_hover.png" class="carousels_selected_arrow_right__ZbT78" alt="scroll_arrow_right">
+            </div>
+        </div>
+    </div>
+
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+-->
