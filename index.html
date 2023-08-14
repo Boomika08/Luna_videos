@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUNNXT App</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="top-container">
     <div class="nav-bar">
         <ul class="nav nav-underline ">
             <img src="images/Icons/logo.png" class="logo1" alt="logo">
@@ -20,199 +18,725 @@
             <li class="nav-item"> <a class="nav-link" href="#">MUSIC VIDEOS</a></li>
             <li class="nav-item"> <a class="nav-link" href="#">COMEDY</a></li>  
             <div class="right d-flex justify-content-end"> 
-            <div class="dropdown show">
+          <!--- <div class="dropdown show">
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Language
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Tamil</a>
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Marathi</a>
             </div>
-            </div>
+            </div>-->
+            <div class="language"><button type="button" class="header_lang">Languages</button></div>
             <img class="search" src="images/Icons/search.svg">
-            <img class="user" src="images/Icons/user.png">
+            <div class="subscription"><button type="button" class="header_subscription">Subscribe</button></div>
             </div>
         </ul>
     </div>
     </div>
-    <div class="carousel container justify-content-center">
+    <div class="container justify-content-center">
         <div class="row justify-content-center">
             <div class="col">
                 <div id="carouselExample" class="carousel slide">       
                     <div class="carousel-inner">
-                    <div class="slides">
-                      <div class="carousel-item active">
-                        <img src="images/carousel/img1.jpg" class="d-block w-100 img" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/carousel/img2.jpg" class="d-block w-100 img" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/carousel/img3.jpg" class="d-block w-100 img" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/carousel/img4.jpg" class="d-block w-100 img" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/carousel/img5.jpg" class="d-block w-100 img" alt="...">
-                      </div>
-                    </div>
+                        <div class="carousel-item ">
+                            <img src="images/carousel/img1.jpg" class="d-block w-100 img" alt="...">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="images/carousel/img2.jpg" class="d-block w-100 img" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel/img3.jpg" class="d-block w-100 img" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel/img4.jpg" class="d-block w-100 img" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel/img5.jpg" class="d-block w-100 img" alt="...">
+                        </div>
                     </div>
                     <a class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden"></span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
                     </a>
                     <a class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
                     </a>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="radio">
-    <input type="radio" name="navigation" id="r1">
-    <input type="radio" name="navigation" id="r2">
-    <input type="radio" name="navigation" id="r3">
-    <input type="radio" name="navigation" id="r4">
-    <input type="radio" name="navigation" id="r5">
+        <input type="radio" name="navigation" id="r1">
+        <input type="radio" name="navigation" id="r2">
+        <input type="radio" name="navigation" id="r3">
+        <input type="radio" name="navigation" id="r4">
+        <input type="radio" name="navigation" id="r5">
     </div>
-    <div class=" audio">
+    <div class="audio">
         <div class="row">
             <div class="col">
                 <h3 class="h3">Jailer Audio Launch ( Best Moments )</h3>
             </div>
-            <div class="col lrbtn">
-            <div class="carousels_button" style="float: right;">
-                <div class="carousels_arrows_left">
-                    <img src="images/Icons/left.png" class="carousels_default_arrow lbtn" alt="scroll_arrow_left">
-                    <img src="images/Icons/right.png" class="carousels_selected_arrow_left rbtn" alt="scroll_arrow_left">
+            <button class="button" href="alldet1" type="button">View All</button>
+        </div>
+    </div>
+    <section class="page-section">
+        <div class="container-fluid">
+            <div id="movie-slide-1" class="carousel slide">       
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh1.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Jailer Audio Launch ...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>2 hrs ...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh2.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Superstar Rajinikanth ...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>1 hr ...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh3.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Kalanithi Maran Speech...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>8 mins...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh4.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Anirudh Performance...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>16 mins...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh1.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Jailer Audio Launch ...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>2 hrs ...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh2.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Superstar Rajinikanth ...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>1 hr ...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh3.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Kalanithi Maran Speech...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>8 mins...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <a href="vdetail.html"><img src="images/headings/imgh4.jpg" class="img-fluid imgh"></a>
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Anirudh Performance...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>16 mins...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div> 
                 </div>
-            </div>
-            </div>
-            <button class="button" type="button">View All</button>
+                <a class="carousel-control-prev" type="button" data-bs-target="#movie-slide-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+                <a class="carousel-control-next" type="button" data-bs-target="#movie-slide-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+            </div>   
         </div>
-    </div>
-    <div class="row d-flex justify-content-start">
-        <div class="col">
-            <a href="vdetail.html"><img src="images/headings/imgh1.jpg" class="img-fluid imgh"></a>
-        </div>
-        <div class="col">
-            <a href="vdetail.html"><img src="images/headings/imgh2.jpg" class="img-fluid imgh"></a>
-        </div>
-        <div class="col">
-            <a href="vdetail.html"><img src="images/headings/imgh3.jpg" class="img-fluid imgh"></a>
-        </div>
-        <div class="col">
-            <a href="vdetail.html"><img src="images/headings/imgh4.jpg" class="img-fluid imgh"></a>
-        </div> 
-        <div class="col">
-            <a href="vdetail.html"><img src="images/headings/imgh5.jpg" class="img-fluid imgh"></a>
-        </div>
-    </div>
-    <br><br>
-    <div class="live">
+    </section>
+    <div class="hbd">
         <div class="row">
             <div class="col">
-                <h3  class="h3">Live</h3>
+                <h3 class="h3">Starts Born in August</h3>
             </div>
-            <div class="col lrbtn">
-            <div class="carousels_button" style="float: right;">
-            <div class="carousels_arrows_left">
-                <img src="images/Icons/left.png" class="carousels_default_arrow lbtn" alt="scroll_arrow_left">
-                <img src="images/Icons/right.png" class="carousels_selected_arrow_left rbtn" alt="scroll_arrow_left">
-            </div>
-            </div>
-            </div>
-            <button class="button" type="button">View All</button>
+            <button class="button" href="alldet1" type="button">View All</button>
         </div>
     </div>
-    <div class="row d-flex justify-content-around">
-        <div class="box lives">
-            <img src="images/live/img1.jpeg" class="img-fluid imgh">
+    <section class="hbd-section">
+        <div class="container-fluid">
+            <div id="movie-slide-1" class="carousel slide">       
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd1.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                  
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd2.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                       
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd3.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                      
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd4.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        
+                                    </div>
+                                </div>   
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd1.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                       
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd2.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                              
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd3.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                      
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/hbd/hbd4.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                       
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <a class="carousel-control-prev" type="button" data-bs-target="#movie-slide-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+                <a class="carousel-control-next" type="button" data-bs-target="#movie-slide-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+            </div>   
         </div>
-        <div class="box lives">
-            <img src="images/live/img2.jpeg" class="img-fluid imgh">
-        </div>
-        <div class="box lives">
-            <img src="images/live/img3.jpeg" class="img-fluid imgh">
-        </div>
-        <div class="box lives">
-            <img src="images/live/img4.jpeg" class="img-fluid imgh">
-        </div>
-        <div class="box lives">
-            <img src="images/live/img5.jpeg" class="img-fluid imgh">
-        </div>
-    </div>
-    <br><br>
-    <div class="epi">
+    </section>
+    <div class="episode">
         <div class="row">
             <div class="col">
-                <h3 class="h3">Latest episodes</h3>
+                <h3 class="h3">Latest Episodes</h3>
             </div>
-            <div class="col lrbtn">
-            <div class="carousels_button" style="float: right;">
-            <div class="carousels_arrows_left">
-                <img src="images/Icons/left.png" class="carousels_default_arrow lbtn" alt="scroll_arrow_left">
-                <img src="images/Icons/right.png" class="carousels_selected_arrow_left rbtn" alt="scroll_arrow_left">
-            </div>
-            </div>
-            </div>
-            <button class="button" type="button">View All</button>
+            <button class="button" href="alldet1" type="button">View All</button>
         </div>
     </div>
-    <div class="row d-flex justify-content-start">
-        <div class="col">
-            <img src="images/latest/imgl1.jpg" class="img-fluid imgh">
+    <section class="epi-section">
+        <div class="container-fluid">
+            <div id="movie-slide-1" class="carousel slide">       
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl1.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Nalla Kaalam...<br>
+                                            E1890-Aug 11, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Astrology</span>
+                                            <span>22 mins</span>
+                                            <span>...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl2.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Ethir Neechal<br>
+                                            E474-Aug 08, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Serials</span>
+                                            <span>2023</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl3.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Iniya<br>
+                                            E213-Aug 10, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Serials</span>
+                                            <span>2023</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl4.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Sundari<br>
+                                            E587-Aug 10, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Marathi</span>
+                                            <span>Serials</span>
+                                            <span>2023</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl1.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Nalla Kaalam...<br>
+                                            E1890-Aug 11, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Astrology</span>
+                                            <span>22 mins</span>
+                                            <span>...</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl2.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Ethir Neechal<br>
+                                            E474-Aug 08, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Serials</span>
+                                            <span>2023</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl3.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Iniya<br>
+                                            E213-Aug 10, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Serials</span>
+                                            <span>2023</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/latest/imgl4.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            Sundari<br>
+                                            E587-Aug 10, 2023
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Marathi</span>
+                                            <span>Serials</span>
+                                            <span>2023</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <a class="carousel-control-prev" type="button" data-bs-target="#movie-slide-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+                <a class="carousel-control-next" type="button" data-bs-target="#movie-slide-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+            </div>   
         </div>
-        <div class="col">
-            <img src="images/latest/imgl2.jpg" class="img-fluid imgh">
-        </div>
-        <div class="col">
-            <img src="images/latest/imgl3.jpg" class="img-fluid imgh">
-        </div>
-        <div class="col">
-            <img src="images/latest/imgl4.jpg" class="img-fluid imgh">
-        </div>   
-        <div class="col">
-            <img src="images/latest/imgl5.jpg" class="img-fluid imgh">
-        </div>
-    </div>
-    <br><br>
+    </section> 
     <div class="song">
         <div class="row">
             <div class="col">
-                <h3 class="h3">Song Performance</h3>
+                <h3 class="h3">Jailer Audio Launch ( Best Moments )</h3>
             </div>
-            <div class="col lrbtn">
-            <div class="carousels_button" style="float: right;">
-            <div class="carousels_arrows_left">
-                <img src="images/Icons/left.png" class="carousels_default_arrow lbtn" alt="scroll_arrow_left">
-                <img src="images/Icons/right.png" class="carousels_selected_arrow_left rbtn" alt="scroll_arrow_left">
-            </div>
-            </div>
-            </div>
-            <button class="button" type="button">View All</button>
+            <button class="button" href="alldet1" type="button">View All</button>
         </div>
     </div>
-    <div class="row d-flex justify-content-start">
-        <div class="col live">
-            <img src="images/songs/imgs1.jpg" class="img-fluid imgh">
+    <section class="song-section">
+        <div class="container-fluid">
+            <div id="movie-slide-1" class="carousel slide">       
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs1.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>11 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs2.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>11 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs3.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>8 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs4.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>12 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row d-flex justify-content-start align-items-center">
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs1.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>11 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs2.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>11 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs3.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>8 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-3">
+                                <div class="movie-card">
+                                    <div class="movie-card-img">
+                                        <img src="images/songs/imgs4.jpg" class="img-fluid imgh">
+                                    </div>
+                                    <div class="movie-card-content">
+                                        <div class="movie-title">
+                                            SKV 2023...<br>
+                                            Song Perform...
+                                        </div>
+                                        <div class="movie-data-txt">
+                                            <span>Tamil</span>
+                                            <span>Entertainment</span>
+                                            <span>12 mins..</span>
+                                        </div>
+                                        <a href="#" class="btn-play">Play</a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <a class="carousel-control-prev" type="button" data-bs-target="#movie-slide-1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+                <a class="carousel-control-next" type="button" data-bs-target="#movie-slide-1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+                </a>
+            </div>   
         </div>
-        <div class="col live">
-            <img src="images/songs/imgs2.jpg" class="img-fluid imgh">
-        </div>
-        <div class="col live">
-            <img src="images/songs/imgs3.jpg" class="img-fluid imgh">
-        </div>
-        <div class="col live">
-            <img src="images/songs/imgs4.jpg" class="img-fluid imgh">
-        </div>
-        <div class="col live">
-            <img src="images/songs/imgs5.jpg" class="img-fluid imgh">
-        </div>
-    </div><br><br>
+    </section> 
     <div class="footer-container">
         <div class="footer head">
             <div class="footer-nav">
@@ -287,35 +811,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
-<!--
-    <div class="carousels_home_carosel_title__5Z0uK">
-        <img class="carousels_elevation_strip__AykxV" src="/images/elevationstrip.png" alt="elevation">
-        <h1>Jailer Audio Launch ( Best Moments )</h1>
-        <div class="carousels_see_more_part__cjTFx">
-            <a href="/tamil-telugu-malayalam-kannada-bengali-marathi-serial/inside/jaileraudiolaunch1?title=Jailer%20Audio%20Launch%20(%20Best%20Moments%20)&amp;type=vod&amp;publishingHouseId=45">
-                <div class="carousels_see_more_part__cjTFx">
-                    <img src="images/view_all.png" alt="viewall">
-                    <button type="button">View All</button>
-                </div>
-            </a>
-        </div>
-        <div class="carousels_buttons_imgs__BlXCL" style="float: right;">
-            <div class="carousels_arrows_left_section__3mZmr">
-                <img src="images/scroll_back_left.png" class="carousels_default_arrow_left__Q94Ko" alt="scroll_arrow_left">
-                <img src="images/Scroll_back_hover.png" class="carousels_selected_arrow_left__cvJFR" alt="scroll_arrow_left">
-            </div>
-            <div class="carousels_arrows_right_section__WWpso">
-                <img src="images/scroll_forwd_right.png" class="carousels_default_arrow_right__cLtn5" alt="scroll_arrow_right">
-                <img src="images/scroll_frwd_hover.png" class="carousels_selected_arrow_right__ZbT78" alt="scroll_arrow_right">
-            </div>
-        </div>
-    </div>
-
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
--->
